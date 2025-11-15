@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Name – Academic Homepage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Academic homepage of Your Name. Research, publications, teaching, and contact information.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="branding">
+        <h1 class="name">Your Name</h1>
+        <p class="tagline">Biostatistics · Machine Learning · Causal Inference</p>
+        <!-- Edit this line to match your fields -->
+      </div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#talks">Talks</a>
+        <a href="#cv">CV</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero / Intro -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h2>Welcome</h2>
+          <p>
+            I am a <strong>biostatistics researcher</strong> with training in
+            statistics, machine learning, and public health. My work focuses on
+            robust methods for multi-source data integration, blockwise missingness,
+            and distributional robustness in biomedical applications.
+            <!-- Edit this short intro to match your exact profile -->
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="cv/YourName_CV.pdf" target="_blank" rel="noopener">
+              Download CV
+            </a>
+            <a class="btn ghost" href="#contact">
+              Get in touch
+            </a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <!-- Optional profile image -->
+          <!-- <img src="img/profile.jpg" alt="Portrait of Your Name" class="profile-img"> -->
+          <h3>Current Position</h3>
+          <p>
+            <!-- Replace with your actual current role -->
+            M.S. in Biostatistics, Columbia University<br>
+            B.B.A. in Financial Engineering, CUHK-Shenzhen
+          </p>
+          <p>
+            Research interests: Group distributionally robust optimization,
+            blockwise missing data, semi-supervised learning, and
+            applications in electronic health records and neuroscience.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <p>
+          I am broadly interested in developing statistically principled and
+          computationally efficient methods for analyzing heterogeneous and
+          incomplete data, especially in biomedical and public health settings.
+          My recent work focuses on integrating multi-center datasets under
+          blockwise missing covariates, with an emphasis on robust prediction
+          and fairness across populations.
+        </p>
+        <p>
+          Previously, I completed my undergraduate studies in financial
+          engineering and my graduate training in biostatistics. I have
+          experience collaborating with faculty in statistics and biostatistics
+          on projects involving robust machine learning, causal inference, and
+          longitudinal data analysis.
+        </p>
+      </div>
+    </section>
+
+    <!-- Research -->
+    <section id="research" class="section section-alt">
+      <div class="container">
+        <h2>Research</h2>
+        <p>
+          My research interests include:
+        </p>
+        <ul>
+          <li>Robust estimation under <strong>blockwise missingness</strong></li>
+          <li><strong>Group distributionally robust optimization</strong> for multi-source data</li>
+          <li><strong>Semi-supervised learning</strong> with auxiliary covariates</li>
+          <li>Fair and stable prediction in <strong>EHR and biomedical applications</strong></li>
+        </ul>
+        <p>
+          I am currently working on methods that combine maximin optimization
+          with blockwise missingness structures to provide worst-case performance
+          guarantees across heterogeneous centers.
+        </p>
+      </div>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications" class="section">
+      <div class="container">
+        <h2>Publications & Preprints</h2>
+        <p class="hint">
+          <!-- Replace the dummy entries below with your real papers -->
+          (* indicates equal contribution)
+        </p>
+        <ol class="pub-list">
+          <li>
+            <strong>BLOOM: Robust Maximin Optimization for Data Fusion with Blockwise Missing Covariates</strong>.<br>
+            Your Name, Co-authors.<br>
+            <em>Manuscript in preparation / under review</em>, 2025.
+            <!-- Add arXiv / DOI link when available -->
+          </li>
+          <li>
+            <strong>Title of Second Paper</strong>.<br>
+            Your Name, Co-authors.<br>
+            <em>Journal Name</em>, year. (submitted)
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Teaching -->
+    <section id="teaching" class="section section-alt">
+      <div class="container">
+        <h2>Teaching & Mentoring</h2>
+        <ul>
+          <li>
+            Teaching Assistant, <em>Course Name</em>,
+            Department / School, Term, Year.
+          </li>
+          <li>
+            Teaching Assistant, <em>Another Course</em>,
+            Department / School, Term, Year.
+          </li>
+        </ul>
+        <p class="hint">
+          <!-- Add office hours, materials, or teaching philosophy if you like -->
+          You can add links to course materials, lecture notes, or problem sets here.
+        </p>
+      </div>
+    </section>
+
+    <!-- Talks -->
+    <section id="talks" class="section">
+      <div class="container">
+        <h2>Talks & Presentations</h2>
+        <ul>
+          <li>
+            “Talk Title”, Seminar / Conference Name, Location (or Online), Month Year.
+          </li>
+          <li>
+            “Another Talk Title”, Event Name, Month Year.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CV -->
+    <section id="cv" class="section section-alt">
+      <div class="container">
+        <h2>Curriculum Vitae</h2>
+        <p>
+          You can download my full CV here:
+        </p>
+        <p>
+          <a class="btn primary" href="cv/YourName_CV.pdf" target="_blank" rel="noopener">
+            Download CV (PDF)
+          </a>
+        </p>
+        <p class="hint">
+          (Place <code>YourName_CV.pdf</code> in a <code>cv</code> folder in this repository.)
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>
+          The best way to reach me is by email:
+        </p>
+        <p class="contact-info">
+          <strong>Email:</strong>
+          <a href="mailto:your_email@university.edu">your_email@university.edu</a><br>
+          <!-- You can add a secondary email if you like -->
+          <!-- <strong>Alternate email:</strong> yourname@gmail.com -->
+        </p>
+        <p class="contact-info">
+          <!-- Add your institutional affiliation and address -->
+          <strong>Affiliation:</strong> Department of Biostatistics, Your University<br>
+          <strong>Address:</strong> City, Country
+        </p>
+        <p class="contact-info">
+          <!-- Optional: Academic profiles -->
+          <strong>Links:</strong>
+          <a href="https://scholar.google.com" target="_blank" rel="noopener">Google Scholar</a> ·
+          <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a> ·
+          <a href="https://orcid.org" target="_blank" rel="noopener">ORCID</a>
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+      <p class="footer-note">
+        Built with HTML &amp; CSS, hosted on GitHub Pages.
+      </p>
+    </div>
+    <script>
+      // Set current year automatically
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>
