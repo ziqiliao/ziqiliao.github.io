@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Ziqi Liao – Academic Homepage</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Academic homepage of Ziqi Liao. Biostatistics, robust methods for multi-source data fusion, blockwise missing data, and distributionally robust optimization.">
+  <meta name="description" content="Academic homepage of Ziqi Liao, M.S. student in Biostatistics at Columbia University. Interests: robust methods, multi-source data fusion, blockwise missing data, distributionally robust optimization.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -12,17 +12,15 @@
     <div class="container header-inner">
       <div class="branding">
         <h1 class="name">Ziqi&nbsp;Liao</h1>
-        <p class="tagline">Biostatistics · Robust Machine Learning · Missing Data</p>
+        <p class="tagline">M.S. Biostatistics · Robust Methods · Missing Data</p>
       </div>
       <nav class="nav">
-        <a href="#about">About</a>
-        <a href="#research">Research</a>
         <a href="#publications">Publications</a>
+        <a href="#research">Research</a>
         <a href="#education">Education</a>
-        <a href="#honors">Honors</a>
-        <a href="#skills">Skills</a>
         <a href="#cv">CV</a>
         <a href="#contact">Contact</a>
+        <a href="#about">About</a>
       </nav>
     </div>
   </header>
@@ -34,16 +32,17 @@
         <div class="hero-text">
           <h2>Welcome</h2>
           <p>
-            I am a biostatistics researcher with training in statistics, machine learning,
-            and public health. My work focuses on <strong>robust methods for multi-source
-            data integration</strong>, <strong>blockwise missing covariates</strong>, and
-            <strong>group distributionally robust optimization</strong>, with applications
-            to biomedical and electronic health record data.
+            I am an M.S. student in <strong>Biostatistics</strong> at Columbia University
+            Mailman School of Public Health. My interests lie in
+            <strong>robust methods for multi-source data integration</strong>,
+            <strong>blockwise missing covariates</strong>, and
+            <strong>group distributionally robust optimization</strong>,
+            with applications to biomedical and electronic health record data.
           </p>
           <p>
-            I am particularly interested in developing methods that remain reliable under
-            heterogeneity, covariate shift, and incomplete data, and that balance
-            <em>statistical efficiency</em> with <em>practical robustness</em>.
+            I enjoy problems where heterogeneity, covariate shift, and incomplete data
+            make standard methods unreliable, and I aim to develop approaches that are
+            both statistically principled and practically robust.
           </p>
           <div class="hero-actions">
             <a class="btn primary" href="cv/Ziqi_Liao_CV.pdf" target="_blank" rel="noopener">
@@ -55,13 +54,13 @@
           </div>
         </div>
         <div class="hero-card">
-          <h3>Current Work</h3>
+          <h3>Current Status</h3>
           <p>
             M.S. Biostatistics, Columbia University Mailman School of Public Health (2023–2025)<br>
             B.B.A. Financial Engineering, The Chinese University of Hong Kong (Shenzhen), 2019–2023
           </p>
           <p>
-            I am currently working on two research directions:
+            My recent work includes:
           </p>
           <ul>
             <li>
@@ -69,7 +68,7 @@
               (with Prof. Molei&nbsp;Liu, Columbia University).
             </li>
             <li>
-              Optimal subsampling methods for single-index models and federated learning
+              Optimal subsampling strategies for single-index models and federated learning
               (with Prof. Jiasheng&nbsp;Shi, CUHK-Shenzhen).
             </li>
           </ul>
@@ -77,35 +76,35 @@
       </div>
     </section>
 
-    <!-- About -->
-    <section id="about" class="section">
+    <!-- Publications FIRST -->
+    <section id="publications" class="section section-alt">
       <div class="container">
-        <h2>About</h2>
-        <p>
-          I am broadly interested in designing statistically principled and computationally
-          efficient methods for analyzing heterogeneous, high-dimensional, and incomplete data,
-          especially in biomedical and public health settings. My recent work focuses on
-          <strong>blockwise missing covariates</strong> and <strong>multi-source data fusion</strong>,
-          where different cohorts observe different subsets of variables and exhibit distributional
-          shifts.
+        <h2>Publications &amp; Preprints</h2>
+        <p class="hint">
+          Preprints and working papers. Author order and corresponding authors are indicated below.
         </p>
-        <p>
-          I received my M.S. in Biostatistics from Columbia University Mailman School of Public Health,
-          where I earned a GPA of 4.28/4.33 and completed advanced coursework in modern analysis,
-          statistical inference, and computational statistics. Prior to that, I obtained my B.B.A. in
-          Financial Engineering from The Chinese University of Hong Kong (Shenzhen), where I developed
-          a strong background in probability, stochastic processes, optimization, and machine learning.
-        </p>
-        <p>
-          I enjoy working at the interface of theory and applications—developing methods motivated by
-          real problems in EHR data, neuroscience, and epidemiology, while providing rigorous guarantees
-          on robustness and generalization.
+        <ol class="pub-list">
+          <li>
+            Liao, Z., Li, Y., &amp; Liu, M.* (2025).
+            <strong>Maximin Effect Estimation with Blockwise Missing Data in Multi-Source Studies</strong>.
+            <em>Preprint</em>.<br>
+            <span class="hint">*Corresponding author: Molei Liu</span>
+          </li>
+          <li>
+            Liao, Z., &amp; Shi, J.* (2025).
+            <strong>Optimal Subsampling for Single-Index Models</strong>.
+            <em>Preprint</em>.<br>
+            <span class="hint">*Corresponding author: Jiasheng Shi</span>
+          </li>
+        </ol>
+        <p class="hint">
+          Updated versions and links (e.g., arXiv or journal sites) will be posted here once available.
         </p>
       </div>
     </section>
 
     <!-- Research -->
-    <section id="research" class="section section-alt">
+    <section id="research" class="section">
       <div class="container">
         <h2>Research</h2>
         <p>
@@ -121,14 +120,14 @@
 
         <h3 style="margin-top:1.25rem;">Ongoing and Recent Projects</h3>
 
-        <p><strong>Optimal Subsampling Methods for Single-Index Models</strong><br>
+        <p><strong>Optimal Subsampling for Single-Index Models</strong><br>
           Research project, Aug. 2025 – Present, Shenzhen, China<br>
           Advisor: Prof. Jiasheng Shi
         </p>
         <ul>
           <li>Developing communication-efficient subsampling strategies for federated learning across multi-source datasets with high data transfer costs.</li>
-          <li>Reviewing the evolution of optimal subsampling from linear models to GLMs and single-index models to guide principled design choices.</li>
-          <li>Extending optimal subsampling methodology from parametric models to semi-parametric single-index models while preserving statistical efficiency using an L-optimality perspective.</li>
+          <li>Tracing the evolution of optimal subsampling from linear models to GLMs and single-index models to guide principled design choices.</li>
+          <li>Extending optimal subsampling methodology from parametric models to semi-parametric single-index models while preserving statistical efficiency from an L-optimality perspective.</li>
           <li>Leading implementation and manuscript preparation; the resulting paper is ready for journal submission.</li>
         </ul>
 
@@ -137,9 +136,9 @@
           Advisor: Prof. Molei Liu
         </p>
         <ul>
-          <li>Developing robust statistical methods for estimating linear models in a target population by leveraging multiple heterogeneous source datasets with blockwise missing covariates.</li>
-          <li>Introducing a maximin effect approach that maximizes the minimum explained variance across sources to ensure robust performance under covariate shift.</li>
-          <li>Proposing doubly robust estimation techniques that incorporate density ratio estimation and cross-fitting strategies to handle covariate shift and model misspecification.</li>
+          <li>Developing robust methods for estimating linear models in a target population using multiple heterogeneous source datasets with blockwise missing covariates.</li>
+          <li>Introducing a maximin effect approach that maximizes the minimum explained variance across sources to ensure robustness under covariate shift.</li>
+          <li>Proposing doubly robust estimation strategies that incorporate density ratio estimation and cross-fitting to address covariate shift and model misspecification.</li>
           <li>Conducting simulations and contributing to theoretical development; this methodological paper is also ready for submission.</li>
         </ul>
 
@@ -161,29 +160,6 @@
           <li>Fitted the model using heuristic algorithms including genetic algorithms, ant colony optimization, and simulated annealing.</li>
           <li>Simulated various policy scenarios and quantified the effectiveness of quarantine measures in terms of death rates.</li>
         </ul>
-      </div>
-    </section>
-
-    <!-- Publications -->
-    <section id="publications" class="section">
-      <div class="container">
-        <h2>Publications &amp; Working Papers</h2>
-        <p class="hint">
-          Manuscripts below are in preparation or ready for submission.
-        </p>
-        <ol class="pub-list">
-          <li>
-            <strong>Maximin Effect Estimation with Blockwise Missing Data in Multi-Source Studies</strong>.<br>
-            Working paper, 2025. (with Prof. Molei Liu)
-          </li>
-          <li>
-            <strong>Optimal Subsampling Methods for Single-Index Models</strong>.<br>
-            Working paper, 2025. (with Prof. Jiasheng Shi)
-          </li>
-        </ol>
-        <p class="hint">
-          Preprints and accepted papers will be posted here once available.
-        </p>
       </div>
     </section>
 
@@ -214,28 +190,6 @@
             </span>
           </li>
         </ul>
-      </div>
-    </section>
-
-    <!-- Honors -->
-    <section id="honors" class="section">
-      <div class="container">
-        <h2>Honors &amp; Awards</h2>
-        <ul>
-          <li>AP Scholarship, The Chinese University of Hong Kong (Shenzhen), 2019–2020 and 2021–2022</li>
-          <li>Dean's List, The Chinese University of Hong Kong (Shenzhen), 2019–2020, 2020–2021, 2021–2022</li>
-          <li>Meritorious Award, 2022 Mathematical Contest in Modeling (MCM)</li>
-        </ul>
-      </div>
-    </section>
-
-    <!-- Skills -->
-    <section id="skills" class="section section-alt">
-      <div class="container">
-        <h2>Skills</h2>
-        <p><strong>Programming</strong>: Python, R, MATLAB, Spark, Stata, MySQL, Java</p>
-        <p><strong>Software</strong>: Gurobi, SPSS, Lingo, Microsoft Office</p>
-        <p><strong>Languages</strong>: Native Mandarin; highly proficient in written and oral English</p>
       </div>
     </section>
 
@@ -278,6 +232,24 @@
           <a href="https://ziqiliao.github.io" target="_blank" rel="noopener">Website</a> ·
           <a href="https://github.com/junxiaolei" target="_blank" rel="noopener">GitHub</a>
           <!-- Add Google Scholar / ORCID when ready -->
+        </p>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <p>
+          I am an M.S. student in Biostatistics at Columbia University Mailman School of Public Health.
+          I am broadly interested in statistically principled and computationally efficient methods for
+          analyzing heterogeneous and incomplete data, especially in biomedical and public health settings.
+        </p>
+        <p>
+          My background combines financial engineering and biostatistics, which has given me a strong
+          foundation in probability, stochastic processes, optimization, and modern statistical methods.
+          I enjoy working at the interface of theory and applications, particularly when real-world issues
+          such as missingness, distribution shift, and fairness play a central role.
         </p>
       </div>
     </section>
