@@ -2,25 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Your Name – Academic Homepage</title>
+  <title>Ziqi Liao – Academic Homepage</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Academic homepage of Your Name. Research, publications, teaching, and contact information.">
+  <meta name="description" content="Academic homepage of Ziqi Liao. Biostatistics, robust methods for multi-source data fusion, blockwise missing data, and distributionally robust optimization.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
       <div class="branding">
-        <h1 class="name">Your Name</h1>
-        <p class="tagline">Biostatistics · Machine Learning · Causal Inference</p>
-        <!-- Edit this line to match your fields -->
+        <h1 class="name">Ziqi&nbsp;Liao</h1>
+        <p class="tagline">Biostatistics · Robust Machine Learning · Missing Data</p>
       </div>
       <nav class="nav">
         <a href="#about">About</a>
         <a href="#research">Research</a>
         <a href="#publications">Publications</a>
-        <a href="#teaching">Teaching</a>
-        <a href="#talks">Talks</a>
+        <a href="#education">Education</a>
+        <a href="#honors">Honors</a>
+        <a href="#skills">Skills</a>
         <a href="#cv">CV</a>
         <a href="#contact">Contact</a>
       </nav>
@@ -34,14 +34,19 @@
         <div class="hero-text">
           <h2>Welcome</h2>
           <p>
-            I am a <strong>biostatistics researcher</strong> with training in
-            statistics, machine learning, and public health. My work focuses on
-            robust methods for multi-source data integration, blockwise missingness,
-            and distributional robustness in biomedical applications.
-            <!-- Edit this short intro to match your exact profile -->
+            I am a biostatistics researcher with training in statistics, machine learning,
+            and public health. My work focuses on <strong>robust methods for multi-source
+            data integration</strong>, <strong>blockwise missing covariates</strong>, and
+            <strong>group distributionally robust optimization</strong>, with applications
+            to biomedical and electronic health record data.
+          </p>
+          <p>
+            I am particularly interested in developing methods that remain reliable under
+            heterogeneity, covariate shift, and incomplete data, and that balance
+            <em>statistical efficiency</em> with <em>practical robustness</em>.
           </p>
           <div class="hero-actions">
-            <a class="btn primary" href="cv/YourName_CV.pdf" target="_blank" rel="noopener">
+            <a class="btn primary" href="cv/Ziqi_Liao_CV.pdf" target="_blank" rel="noopener">
               Download CV
             </a>
             <a class="btn ghost" href="#contact">
@@ -50,19 +55,24 @@
           </div>
         </div>
         <div class="hero-card">
-          <!-- Optional profile image -->
-          <!-- <img src="img/profile.jpg" alt="Portrait of Your Name" class="profile-img"> -->
-          <h3>Current Position</h3>
+          <h3>Current Work</h3>
           <p>
-            <!-- Replace with your actual current role -->
-            M.S. in Biostatistics, Columbia University<br>
-            B.B.A. in Financial Engineering, CUHK-Shenzhen
+            M.S. Biostatistics, Columbia University Mailman School of Public Health (2023–2025)<br>
+            B.B.A. Financial Engineering, The Chinese University of Hong Kong (Shenzhen), 2019–2023
           </p>
           <p>
-            Research interests: Group distributionally robust optimization,
-            blockwise missing data, semi-supervised learning, and
-            applications in electronic health records and neuroscience.
+            I am currently working on two research directions:
           </p>
+          <ul>
+            <li>
+              Maximin effect estimation with blockwise missing data in multi-source studies
+              (with Prof. Molei&nbsp;Liu, Columbia University).
+            </li>
+            <li>
+              Optimal subsampling methods for single-index models and federated learning
+              (with Prof. Jiasheng&nbsp;Shi, CUHK-Shenzhen).
+            </li>
+          </ul>
         </div>
       </div>
     </section>
@@ -72,19 +82,24 @@
       <div class="container">
         <h2>About</h2>
         <p>
-          I am broadly interested in developing statistically principled and
-          computationally efficient methods for analyzing heterogeneous and
-          incomplete data, especially in biomedical and public health settings.
-          My recent work focuses on integrating multi-center datasets under
-          blockwise missing covariates, with an emphasis on robust prediction
-          and fairness across populations.
+          I am broadly interested in designing statistically principled and computationally
+          efficient methods for analyzing heterogeneous, high-dimensional, and incomplete data,
+          especially in biomedical and public health settings. My recent work focuses on
+          <strong>blockwise missing covariates</strong> and <strong>multi-source data fusion</strong>,
+          where different cohorts observe different subsets of variables and exhibit distributional
+          shifts.
         </p>
         <p>
-          Previously, I completed my undergraduate studies in financial
-          engineering and my graduate training in biostatistics. I have
-          experience collaborating with faculty in statistics and biostatistics
-          on projects involving robust machine learning, causal inference, and
-          longitudinal data analysis.
+          I received my M.S. in Biostatistics from Columbia University Mailman School of Public Health,
+          where I earned a GPA of 4.28/4.33 and completed advanced coursework in modern analysis,
+          statistical inference, and computational statistics. Prior to that, I obtained my B.B.A. in
+          Financial Engineering from The Chinese University of Hong Kong (Shenzhen), where I developed
+          a strong background in probability, stochastic processes, optimization, and machine learning.
+        </p>
+        <p>
+          I enjoy working at the interface of theory and applications—developing methods motivated by
+          real problems in EHR data, neuroscience, and epidemiology, while providing rigorous guarantees
+          on robustness and generalization.
         </p>
       </div>
     </section>
@@ -94,102 +109,156 @@
       <div class="container">
         <h2>Research</h2>
         <p>
-          My research interests include:
+          My current research interests include:
         </p>
         <ul>
-          <li>Robust estimation under <strong>blockwise missingness</strong></li>
-          <li><strong>Group distributionally robust optimization</strong> for multi-source data</li>
-          <li><strong>Semi-supervised learning</strong> with auxiliary covariates</li>
-          <li>Fair and stable prediction in <strong>EHR and biomedical applications</strong></li>
+          <li>Blockwise missingness and incomplete covariates in multi-source studies</li>
+          <li>Group distributionally robust optimization and maximin effect estimation</li>
+          <li>Semi-supervised learning with auxiliary fully observed covariates</li>
+          <li>Optimal subsampling methods for generalized and semi-parametric models</li>
+          <li>Federated and communication-efficient learning under data transfer constraints</li>
         </ul>
-        <p>
-          I am currently working on methods that combine maximin optimization
-          with blockwise missingness structures to provide worst-case performance
-          guarantees across heterogeneous centers.
+
+        <h3 style="margin-top:1.25rem;">Ongoing and Recent Projects</h3>
+
+        <p><strong>Optimal Subsampling Methods for Single-Index Models</strong><br>
+          Research project, Aug. 2025 – Present, Shenzhen, China<br>
+          Advisor: Prof. Jiasheng Shi
         </p>
+        <ul>
+          <li>Developing communication-efficient subsampling strategies for federated learning across multi-source datasets with high data transfer costs.</li>
+          <li>Reviewing the evolution of optimal subsampling from linear models to GLMs and single-index models to guide principled design choices.</li>
+          <li>Extending optimal subsampling methodology from parametric models to semi-parametric single-index models while preserving statistical efficiency using an L-optimality perspective.</li>
+          <li>Leading implementation and manuscript preparation; the resulting paper is ready for journal submission.</li>
+        </ul>
+
+        <p><strong>Maximin Effect Estimation with Blockwise Missing Data in Multi-Source Studies</strong><br>
+          Research project, Jun. 2024 – Present, New York, USA<br>
+          Advisor: Prof. Molei Liu
+        </p>
+        <ul>
+          <li>Developing robust statistical methods for estimating linear models in a target population by leveraging multiple heterogeneous source datasets with blockwise missing covariates.</li>
+          <li>Introducing a maximin effect approach that maximizes the minimum explained variance across sources to ensure robust performance under covariate shift.</li>
+          <li>Proposing doubly robust estimation techniques that incorporate density ratio estimation and cross-fitting strategies to handle covariate shift and model misspecification.</li>
+          <li>Conducting simulations and contributing to theoretical development; this methodological paper is also ready for submission.</li>
+        </ul>
+
+        <p><strong>Gaussian Mixture Models with Missing Values</strong><br>
+          Course project, Apr. 2024 – May. 2024, New York, USA
+        </p>
+        <ul>
+          <li>Designed a two-layer EM algorithm to handle missing data in Gaussian mixture models, enhancing robustness and accuracy.</li>
+          <li>Provided theoretical justification for the convergence and performance of the proposed algorithm.</li>
+          <li>Implemented extensive simulations benchmarking against standard EM algorithms and alternative imputation methods.</li>
+        </ul>
+
+        <p><strong>Effectiveness Analysis of COVID-19 Quarantine Measures</strong><br>
+          Course project, Oct. 2021 – Dec. 2021, Shenzhen, China
+        </p>
+        <ul>
+          <li>Built a COVID-19 propagation simulator to conduct “what-if” analyses of quarantine policies.</li>
+          <li>Extended a standard SIR model with additional compartments and parameters to better capture real-world transmission dynamics.</li>
+          <li>Fitted the model using heuristic algorithms including genetic algorithms, ant colony optimization, and simulated annealing.</li>
+          <li>Simulated various policy scenarios and quantified the effectiveness of quarantine measures in terms of death rates.</li>
+        </ul>
       </div>
     </section>
 
     <!-- Publications -->
     <section id="publications" class="section">
       <div class="container">
-        <h2>Publications & Preprints</h2>
+        <h2>Publications &amp; Working Papers</h2>
         <p class="hint">
-          <!-- Replace the dummy entries below with your real papers -->
-          (* indicates equal contribution)
+          Manuscripts below are in preparation or ready for submission.
         </p>
         <ol class="pub-list">
           <li>
-            <strong>BLOOM: Robust Maximin Optimization for Data Fusion with Blockwise Missing Covariates</strong>.<br>
-            Your Name, Co-authors.<br>
-            <em>Manuscript in preparation / under review</em>, 2025.
-            <!-- Add arXiv / DOI link when available -->
+            <strong>Maximin Effect Estimation with Blockwise Missing Data in Multi-Source Studies</strong>.<br>
+            Working paper, 2025. (with Prof. Molei Liu)
           </li>
           <li>
-            <strong>Title of Second Paper</strong>.<br>
-            Your Name, Co-authors.<br>
-            <em>Journal Name</em>, year. (submitted)
+            <strong>Optimal Subsampling Methods for Single-Index Models</strong>.<br>
+            Working paper, 2025. (with Prof. Jiasheng Shi)
           </li>
         </ol>
-      </div>
-    </section>
-
-    <!-- Teaching -->
-    <section id="teaching" class="section section-alt">
-      <div class="container">
-        <h2>Teaching & Mentoring</h2>
-        <ul>
-          <li>
-            Teaching Assistant, <em>Course Name</em>,
-            Department / School, Term, Year.
-          </li>
-          <li>
-            Teaching Assistant, <em>Another Course</em>,
-            Department / School, Term, Year.
-          </li>
-        </ul>
         <p class="hint">
-          <!-- Add office hours, materials, or teaching philosophy if you like -->
-          You can add links to course materials, lecture notes, or problem sets here.
+          Preprints and accepted papers will be posted here once available.
         </p>
       </div>
     </section>
 
-    <!-- Talks -->
-    <section id="talks" class="section">
+    <!-- Education -->
+    <section id="education" class="section section-alt">
       <div class="container">
-        <h2>Talks & Presentations</h2>
+        <h2>Education</h2>
         <ul>
           <li>
-            “Talk Title”, Seminar / Conference Name, Location (or Online), Month Year.
+            <strong>Columbia University Mailman School of Public Health</strong>, New York, USA<br>
+            M.S. in Biostatistics, Sep. 2023 – Jun. 2025<br>
+            GPA: 4.28 / 4.33
+            <br>
+            <span class="hint">
+              Selected coursework: Introduction to Modern Analysis (A+);
+              Statistical Inference (A+); Biostatistical Methods I &amp; II (A+);
+              Topics in Advanced Statistical Computing (A+).
+            </span>
           </li>
-          <li>
-            “Another Talk Title”, Event Name, Month Year.
+          <li style="margin-top:0.75rem;">
+            <strong>The Chinese University of Hong Kong (Shenzhen)</strong>, Shenzhen, China<br>
+            B.B.A. in Financial Engineering, Sep. 2019 – Jun. 2023<br>
+            GPA: 3.73 / 4.00
+            <br>
+            <span class="hint">
+              Selected coursework: Basic Machine Learning (A); Introduction to Data Analytics (A);
+              Stochastic Process (A); Optimization in Data Science and Machine Learning (A).
+            </span>
           </li>
         </ul>
+      </div>
+    </section>
+
+    <!-- Honors -->
+    <section id="honors" class="section">
+      <div class="container">
+        <h2>Honors &amp; Awards</h2>
+        <ul>
+          <li>AP Scholarship, The Chinese University of Hong Kong (Shenzhen), 2019–2020 and 2021–2022</li>
+          <li>Dean's List, The Chinese University of Hong Kong (Shenzhen), 2019–2020, 2020–2021, 2021–2022</li>
+          <li>Meritorious Award, 2022 Mathematical Contest in Modeling (MCM)</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2>Skills</h2>
+        <p><strong>Programming</strong>: Python, R, MATLAB, Spark, Stata, MySQL, Java</p>
+        <p><strong>Software</strong>: Gurobi, SPSS, Lingo, Microsoft Office</p>
+        <p><strong>Languages</strong>: Native Mandarin; highly proficient in written and oral English</p>
       </div>
     </section>
 
     <!-- CV -->
-    <section id="cv" class="section section-alt">
+    <section id="cv" class="section">
       <div class="container">
         <h2>Curriculum Vitae</h2>
         <p>
           You can download my full CV here:
         </p>
         <p>
-          <a class="btn primary" href="cv/YourName_CV.pdf" target="_blank" rel="noopener">
+          <a class="btn primary" href="cv/Ziqi_Liao_CV.pdf" target="_blank" rel="noopener">
             Download CV (PDF)
           </a>
         </p>
         <p class="hint">
-          (Place <code>YourName_CV.pdf</code> in a <code>cv</code> folder in this repository.)
+          Make sure the file is named <code>Ziqi_Liao_CV.pdf</code> and placed in a <code>cv</code> folder in this repository.
         </p>
       </div>
     </section>
 
     <!-- Contact -->
-    <section id="contact" class="section">
+    <section id="contact" class="section section-alt">
       <div class="container">
         <h2>Contact</h2>
         <p>
@@ -197,21 +266,18 @@
         </p>
         <p class="contact-info">
           <strong>Email:</strong>
-          <a href="mailto:your_email@university.edu">your_email@university.edu</a><br>
-          <!-- You can add a secondary email if you like -->
-          <!-- <strong>Alternate email:</strong> yourname@gmail.com -->
+          <a href="mailto:119020286@link.cuhk.edu.cn">119020286@link.cuhk.edu.cn</a>
         </p>
         <p class="contact-info">
-          <!-- Add your institutional affiliation and address -->
-          <strong>Affiliation:</strong> Department of Biostatistics, Your University<br>
-          <strong>Address:</strong> City, Country
+          <strong>Mailing address:</strong><br>
+          Columbia University Mailman School of Public Health<br>
+          50 Haven Ave, New York, NY 10032, USA
         </p>
         <p class="contact-info">
-          <!-- Optional: Academic profiles -->
           <strong>Links:</strong>
-          <a href="https://scholar.google.com" target="_blank" rel="noopener">Google Scholar</a> ·
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a> ·
-          <a href="https://orcid.org" target="_blank" rel="noopener">ORCID</a>
+          <a href="https://ziqiliao.github.io" target="_blank" rel="noopener">Website</a> ·
+          <a href="https://github.com/junxiaolei" target="_blank" rel="noopener">GitHub</a>
+          <!-- Add Google Scholar / ORCID when ready -->
         </p>
       </div>
     </section>
@@ -219,7 +285,7 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>&copy; <span id="year"></span> Your Name. All rights reserved.</p>
+      <p>&copy; <span id="year"></span> Ziqi Liao. All rights reserved.</p>
       <p class="footer-note">
         Built with HTML &amp; CSS, hosted on GitHub Pages.
       </p>
